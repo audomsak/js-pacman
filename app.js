@@ -122,5 +122,5 @@ io.sockets.on('connection', function(socket) {
 	});
 });
 
-server.listen(process.argv.length === 3 ? +process.argv[2] : 80);
+server.listen(process.argv.length === 3 ? +process.argv[2] : 8080);
 
